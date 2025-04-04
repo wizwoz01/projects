@@ -53,7 +53,7 @@ GND	GND
 ## Software Commands
 Send these commands via Serial Monitor (115200 baud):
 
-FETCH_ROM - Downloads Ultima I disk image from archive.org
+FETCH_ROM - Downloads Ultima I disk image from https://mirrors.apple2.org.za/
 
 LIST_FILES - Lists all files in LittleFS
 
