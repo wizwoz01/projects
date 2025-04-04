@@ -2,7 +2,7 @@
 This project demonstrates bidirectional UART communication between an M5StickCPlus2 (ESP32-based) and an FPGA, with file transfer capabilities over WiFi.
 
 ## Features
-UART Communication:
+# UART Communication:
 
 115200 baud rate
 
@@ -10,7 +10,7 @@ HardwareSerial using GPIO26 (TX) and GPIO36 (RX)
 
 Bidirectional data transfer
 
-File System:
+# File System:
 
 LittleFS for file storage
 
@@ -18,7 +18,7 @@ Automatic filesystem formatting on startup
 
 File listing capability
 
-WiFi Connectivity:
+# WiFi Connectivity:
 
 Connects to specified WiFi network
 
@@ -26,7 +26,7 @@ Downloads ROM files from the internet
 
 Verifies downloaded files
 
-FPGA File Transfer:
+# FPGA File Transfer:
 
 Buffered transfer with progress display
 
@@ -34,7 +34,7 @@ Visual feedback on M5StickCPlus2 screen
 
 Error handling
 
-User Interface:
+# User Interface:
 
 Status display on M5StickCPlus2 LCD
 
