@@ -110,7 +110,7 @@ GPIO36 is input-only on ESP32
 ## Features that need to still be implemented:
 Complete Circuitry/Expansion Card to connect the sOc to Apple IIe computer.
 
-Hijack the 6502 bus to run transmitted files on the Apple IIe computer.
+Complete FPGA logic to hijack the 6502 bus to run transmitted files on the Apple IIe computer.
 
 If successful, the Apple IIe will be able to connect to WIFI, download
 applications or games and Run on the machine.
