@@ -1,7 +1,7 @@
-##FPGA UART Communication with M5StickCPlus2
+## FPGA UART Communication with M5StickCPlus2
 This project demonstrates bidirectional UART communication between an M5StickCPlus2 (ESP32-based) and an FPGA, with file transfer capabilities over WiFi.
 
-##Features
+## Features
 UART Communication:
 
 115200 baud rate
@@ -42,15 +42,15 @@ Progress bar for file transfers
 
 Error messages
 
-##Hardware Setup
+## Hardware Setup
 Connections
 M5StickCPlus2	FPGA
 GPIO26 (TX)	FPGA RX
 GPIO36 (RX)	FPGA TX
 GND	GND
-##Note: GPIO36 is input-only on the ESP32.
+## Note: GPIO36 is input-only on the ESP32.
 
-##Software Commands
+## Software Commands
 Send these commands via Serial Monitor (115200 baud):
 
 FETCH_ROM - Downloads Ultima I disk image from archive.org
@@ -59,7 +59,7 @@ LIST_FILES - Lists all files in LittleFS
 
 SEND - Transfers the ROM file to FPGA
 
-##FPGA Implementation
+## FPGA Implementation
 The FPGA side includes:
 
 UART receiver/transmitter state machine
@@ -70,7 +70,7 @@ Status LEDs
 
 Error handling
 
-##Key FPGA Modules:
+## Key FPGA Modules:
 UART_FIFO - Large circular buffer for data
 
 UART_rx_tx - UART communication state machine
@@ -84,8 +84,8 @@ Use commands to manage files and transfers
 
 Monitor progress on the M5StickCPlus2 display
 
-##Requirements
-##Libraries:
+## Requirements
+## Libraries:
 LittleFS
 
 WiFi
@@ -94,21 +94,23 @@ M5StickCPlus2
 
 HardwareSerial
 
-##Hardware:
+## Hardware:
 M5StickCPlus2
 
 FPGA board with UART capability
 
 WiFi network access
 
-##Notes
+## Notes
 The code automatically formats LittleFS on startup (erases all files)
 
 GPIO36 is input-only on ESP32
 
-##NOT COMPLETE.....
-##Features that need to still be implemented:
+## NOT COMPLETE.....
+## Features that need to still be implemented:
 Complete Circuitry/Expansion Card to connect the sOc to Apple IIe computer.
+
 Hijack the 6502 bus to run transmitted files on the Apple IIe computer.
+
 If successful, the Apple IIe will be able to connect to WIFI, download
 applications or games and Run on the machine.
