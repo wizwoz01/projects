@@ -1,4 +1,4 @@
-## FPGA UART Communication with M5StickCPlus2
+## Infinite 8-bit Cartridge w/ Zybo Z7-10 & ESP32(M5StickCPlus2)
 This project demonstrates bidirectional UART communication between an M5StickCPlus2 (ESP32-based) and an FPGA, with file transfer capabilities over WiFi.
 
 ## Features
