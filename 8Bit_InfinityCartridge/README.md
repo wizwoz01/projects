@@ -75,7 +75,7 @@ UART_FIFO - Large circular buffer for data
 
 UART_rx_tx - UART communication state machine
 
-##Usage
+## Usage
 Upload the sketch to M5StickCPlus2
 
 Open Serial Monitor at 115200 baud
