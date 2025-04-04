@@ -106,7 +106,7 @@ The code automatically formats LittleFS on startup (erases all files)
 
 GPIO36 is input-only on ESP32
 
-Random 140Kb bin file is used for the UART debugging verifying correct transmission
+Random 140Kb bin file is used for the UART debugging, verifying correct transmission
 
 ## NOT COMPLETE.....
 ## Features that need to still be implemented:
