@@ -12,7 +12,7 @@
 
 
 module UART_rx_tx(
-    input clk,               // 100 MHz
+    input clk,               // 125 MHz
     input rst,               // Active-high reset
     input rxd,               // From ESP32
     input transmit_trigger,  // Signal to start transmission
@@ -22,7 +22,7 @@ module UART_rx_tx(
 );
 
     // UART Parameters
-    parameter CLK_FREQ = 100_000_000;
+    parameter CLK_FREQ = 125_000_000;   //Zybo Z7-10 has a 125MHz sysclk
     parameter BAUD = 115200;
     localparam CYCLES_PER_BIT = CLK_FREQ/BAUD;
     localparam SAMPLE_POINT = CYCLES_PER_BIT/2;
