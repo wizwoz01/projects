@@ -116,3 +116,7 @@ Going to use Disk II Interface Card instead of creating custom circuitry, then e
 
 If successful, the Apple IIe will be able to connect to WIFI, download
 applications or games and Run on the machine.
+
+# 
+![diskII](https://github.com/user-attachments/assets/2875e23a-02c8-4725-acca-6017adbd3fde)
+
