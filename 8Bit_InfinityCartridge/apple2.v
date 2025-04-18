@@ -1,3 +1,4 @@
+//TOP
 module apple2 (
     input clk,                // 125 MHz input clock
     input rst,                // Active-high reset
