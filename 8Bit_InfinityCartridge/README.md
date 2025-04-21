@@ -111,12 +111,10 @@ Random 140Kb bin file is used for the UART debugging, verifying correct transmis
 ## NOT COMPLETE.....
 ## Features that need to still be implemented:
 # XComplete Circuitry/Expansion Card to connect the sOc to Apple IIe computer.
-# XComplete FPGA logic to hijack the 6502 bus to run transmitted files on the Apple IIe computer.
-Going to use Disk II Interface Card instead of creating custom circuitry, then emulate a floppy and its driving signals
 
-If successful, the Apple IIe will be able to connect to WIFI, download
+If successful, the Zybo will be able to boot into Apple II system and will be able to connect to WIFI, download
 applications or games and Run on the machine.
 
-# 
+# (EXTRAS) -- future implementations
 ![diskII](https://github.com/user-attachments/assets/2875e23a-02c8-4725-acca-6017adbd3fde)
 
