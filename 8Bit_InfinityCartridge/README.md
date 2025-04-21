@@ -112,7 +112,7 @@ Random 140Kb bin file is used for the UART debugging, verifying correct transmis
 ## Features that need to still be implemented:
 
 If successful, the Zybo will be able to boot into Apple II system and will be able to connect to WIFI, download
-applications or games and Run on the machine.
+applications or games.
 
 # (EXTRAS) -- future implementations
 ![diskII](https://github.com/user-attachments/assets/2875e23a-02c8-4725-acca-6017adbd3fde)
