@@ -110,7 +110,6 @@ Random 140Kb bin file is used for the UART debugging, verifying correct transmis
 
 ## NOT COMPLETE.....
 ## Features that need to still be implemented:
-# XComplete Circuitry/Expansion Card to connect the sOc to Apple IIe computer.
 
 If successful, the Zybo will be able to boot into Apple II system and will be able to connect to WIFI, download
 applications or games and Run on the machine.
