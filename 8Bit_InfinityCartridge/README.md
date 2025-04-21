@@ -2,6 +2,12 @@
 This project demonstrates bidirectional UART communication between an M5StickCPlus2 (ESP32-based) and an FPGA, with file transfer capabilities over WiFi.
 
 ## Features
+WORKING Features:
+  `-HDMI`
+  `-Display Timings`
+  `-Clocks`
+  `-Font ROM`
+  
 # UART Communication:
 
 115200 baud rate
