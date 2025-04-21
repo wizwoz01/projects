@@ -3,6 +3,7 @@ This project demonstrates bidirectional UART communication between an M5StickCPl
 
 ## Features
 WORKING Features:
+
   `-HDMI`
   `-Display Timings`
   `-Clocks`
