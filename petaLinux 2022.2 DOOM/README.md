@@ -40,5 +40,7 @@ petalinux-package --boot --fsbl --fpga --u-boot --force
 
 # 7. Copy to SD card (replace /dev/sdX)
 sudo dd if=images/linux/BOOT.BIN of=/dev/sdX bs=1M
+
 sudo cp images/linux/image.ub /media/$USER/boot/
+
 sync
