@@ -17,6 +17,7 @@ This project ports DOOM to PetaLinux 2022.2 running on Zynq-7000.
 
 # 2. Create project 
 petalinux-create -t project --template zynq --name test_01
+
 cd test_01
 
 # 3. Configure hardware (update XSA path)
@@ -29,10 +30,12 @@ petalinux-create -t apps --template install -n doom --enable
 
 # 5. Enable in rootfs
 echo 'CONFIG_packagegroup-petalinux-games' >> project-spec/meta-user/conf/user-rootfsconfig
+
 echo 'CONFIG_doom' >> project-spec/meta-user/conf/user-rootfsconfig
 
 # 6. Build everything
 petalinux-build
+
 petalinux-package --boot --fsbl --fpga --u-boot --force
 
 # 7. Copy to SD card (replace /dev/sdX)
