@@ -21,7 +21,7 @@ cd test_01
 
 # 3. Configure hardware (update XSA path)
 petalinux-config --get-hw-description=<path-to/your/system.xsa>
-- This files comes from Vivado includes:
+- This file comes from Vivado includes:
 - HDMI Output
   
 # 4. Add DOOM package
