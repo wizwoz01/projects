@@ -7,7 +7,7 @@ This project ports DOOM to PetaLinux 2022.2 running on Zynq-7000.
 
 - Xilinx PetaLinux 2022.2 tools installed
 - Vivado 2022.2
-- Supported board (ZC702, ZCU102, etc.)
+- Supported board (Zybo Z7-10, Z7-20, Zynq-7000, etc.)
 - ~10GB free disk space
 - Linux host machine (Ubuntu recommended)
 
