@@ -62,7 +62,7 @@ It magnetically mounts to any standard whiteboard, maps the surface, and perform
 </p>
 
 **Main Modules:**
-- **MCU (ARM)** — Central control, motor logic, and sensor fusion  
+- **Zynq-7000/MCU (ARM)** — Central control, motor logic, and sensor fusion  
 - **Locomotion System** — Motor drivers, wheel/track movement  
 - **Marker Module** — Servo-driven precision writing  
 - **Eraser Module** — Motorized pad for automated cleaning  
@@ -80,7 +80,7 @@ It magnetically mounts to any standard whiteboard, maps the surface, and perform
 - **Sensors:** Edge detection (IR/TOF) and optional IMU  
 - **Battery:** Rechargeable Li-ion pack with safety circuitry  
 
-📂 *See [`hardware/BOM.csv`](hardware/BOM.csv) for component details.*
+📂 *See [`hardware/BOM.csv`](hardware/BOM.csv) for component details.*(TBD)
 
 ---
 
@@ -104,3 +104,4 @@ It magnetically mounts to any standard whiteboard, maps the surface, and perform
 ```bash
 git clone https://github.com/wizwoz01/projects.git
 cd projects/T9-WIPERITE
+Future Instrustions - TBD
