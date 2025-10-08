@@ -86,7 +86,7 @@ It magnetically mounts to any standard whiteboard, maps the surface, and perform
 
 ## 💻 Firmware & Software
 
-**Firmware (MCU)**
+**Firmware (Zynq-7000/MCU)**
 - Motor control loops (velocity, position)
 - Marker/eraser actuator control
 - Navigation & path planning
